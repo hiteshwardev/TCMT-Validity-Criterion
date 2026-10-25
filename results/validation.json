@@ -1,0 +1,102 @@
+{
+ "checks": [
+  {
+   "check": "TMM vs Airy slab",
+   "passed": true,
+   "tolerance": 1e-10,
+   "value": 4.965068306494546e-16
+  },
+  {
+   "check": "TMM unitarity",
+   "passed": true,
+   "tolerance": 1e-09,
+   "value": 2.886579864025407e-15
+  },
+  {
+   "check": "TMM reciprocity",
+   "passed": true,
+   "tolerance": 1e-09,
+   "value": 0.0
+  },
+  {
+   "check": "TMM mirror symmetry",
+   "passed": true,
+   "tolerance": 1e-09,
+   "value": 0.0
+  },
+  {
+   "check": "single-mode TCMT, isolated resonance",
+   "passed": true,
+   "tolerance": 0.001,
+   "value": 5.563549117440808e-07
+  },
+  {
+   "check": "FMM zero contrast vs Airy slab",
+   "passed": true,
+   "tolerance": 1e-10,
+   "value": 2.581268532253489e-15
+  },
+  {
+   "check": "FMM energy conservation",
+   "passed": true,
+   "tolerance": 1e-10,
+   "value": 1.2945200467129325e-13
+  },
+  {
+   "check": "FMM unitarity",
+   "passed": true,
+   "tolerance": 1e-09,
+   "value": 1.31117339208231e-13
+  },
+  {
+   "check": "FMM truncation (N=10 vs N=18)",
+   "passed": true,
+   "tolerance": 0.005,
+   "value": 0.0002898408005374985
+  },
+  {
+   "check": "FMM vs grcwa reflectance",
+   "passed": true,
+   "tolerance": 1e-05,
+   "value": 2.794162966050784e-06
+  },
+  {
+   "check": "phase law vs direct evaluation",
+   "passed": true,
+   "tolerance": 1e-12,
+   "value": 2.612160388978744e-15
+  },
+  {
+   "check": "reference losslessness |P/N - I|",
+   "passed": true,
+   "tolerance": 1e-10,
+   "value": 6.481103435479361e-18
+  }
+ ],
+ "fmm_truncation": [
+  {
+   "R": 0.40037535548400655,
+   "n_orders": 6
+  },
+  {
+   "R": 0.39981681964195787,
+   "n_orders": 8
+  },
+  {
+   "R": 0.39965655565144287,
+   "n_orders": 10
+  },
+  {
+   "R": 0.3995942918101735,
+   "n_orders": 12
+  },
+  {
+   "R": 0.39956515785862107,
+   "n_orders": 14
+  },
+  {
+   "R": 0.39954075243990833,
+   "n_orders": 18
+  }
+ ]
+}
